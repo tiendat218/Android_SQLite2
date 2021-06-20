@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_list_user"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="65dp"
+    android:paddingTop="18dp"
+    android:paddingRight="65dp"
+    android:paddingBottom="18dp"
+    tools:context=".activity.ListUserAct">
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/lvUser"/>
+
+</RelativeLayout>
